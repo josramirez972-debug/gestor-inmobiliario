@@ -1,0 +1,130 @@
+.gip-container{max-width:1180px;margin:40px auto;padding:0 20px}
+.gip-search{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;padding:20px;background:#f5f6f7;margin-bottom:28px}
+.gip-search select,.gip-contact input,.gip-contact textarea{width:100%;box-sizing:border-box;padding:11px;border:1px solid #d2d6da;border-radius:4px}
+.gip-search button,.gip-button,.gip-contact button,.gip-whatsapp{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:4px;padding:11px 16px;background:#182a3a;color:#fff;text-decoration:none;cursor:pointer}
+.gip-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.gip-card{position:relative;border:1px solid #e3e5e8;border-radius:10px;overflow:hidden;background:#fff;transition:transform .2s ease,box-shadow .2s ease}
+.gip-card:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(0,0,0,.08)}
+.gip-card a{display:block;color:inherit;text-decoration:none}
+.gip-card> a>img{display:block;width:100%;height:220px;object-fit:cover;background:#eee}
+.gip-no-image{height:220px;display:flex;align-items:center;justify-content:center;background:#eee;color:#777}
+.gip-card-body{padding:18px}
+.gip-card h3{margin:4px 0 8px;font-size:1.1rem}
+.gip-card-price{display:block;font-size:1.05rem;margin-bottom:14px}
+.gip-badge{position:absolute;top:12px;left:12px;background:#fff;padding:5px 9px;border-radius:4px;font-size:.8rem;font-weight:600}
+.gip-card-location{display:flex;align-items:center;gap:5px;color:#68717c;font-size:.85rem;min-height:20px}
+.gip-icon{display:inline-flex;width:18px;height:18px;flex:0 0 18px}
+.gip-icon svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.gip-card-features{display:flex;gap:14px;flex-wrap:wrap;padding-top:12px;border-top:1px solid #edf0f2}
+.gip-feature-item{display:inline-flex;align-items:center;gap:6px;color:#59636e;font-size:.82rem}
+.gip-feature-item>span:last-child{display:flex;flex-direction:column;line-height:1.1}
+.gip-feature-item strong{font-size:.9rem;color:#26313b}
+.gip-feature-item small{font-size:.68rem;color:#7c8791}
+.gip-pagination ul{display:flex;gap:8px;list-style:none;padding:20px 0}
+.gip-pagination a,.gip-pagination span{padding:7px 10px;border:1px solid #ddd}
+.gip-single{display:grid;grid-template-columns:minmax(0,2fr) minmax(300px,1fr);gap:42px}
+.gip-price{font-size:1.6rem;font-weight:700}
+.gip-hero{width:100%;height:auto;display:block}
+.gip-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0}
+.gip-gallery img{width:100%;height:150px;object-fit:cover}
+.gip-features{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0}
+.gip-features li{display:flex;align-items:center;gap:8px;padding:10px 12px;background:#f4f5f6;border-radius:6px}
+.gip-contact{align-self:start;padding:24px;background:#f5f6f7}
+.gip-contact label{display:block}.gip-contact p{margin:0 0 14px}.gip-contact textarea{min-height:100px}
+.gip-whatsapp{background:#168d45;margin:4px 0 16px}
+.gip-agent-photo{max-width:72px;width:72px;height:72px;border-radius:50%;object-fit:cover}
+.gip-success{color:#16713a}.gip-error{color:#a82323}.gip-honeypot{position:absolute!important;left:-9999px!important}.gip-description{margin:28px 0}#gip-map{height:360px}
+.gip-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 16px}
+#gip-gallery-preview{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.gip-gallery-item{position:relative;display:inline-flex}
+.gip-gallery-item img,#gip-agent-photo-preview img{width:90px;height:90px;object-fit:cover;border-radius:5px}
+.gip-remove-gallery{position:absolute;top:-7px;right:-7px;width:22px;height:22px;border:0;border-radius:50%;background:#b42318;color:#fff;cursor:pointer;line-height:20px}
+@media(max-width:768px){.gip-search,.gip-grid,.gip-single{grid-template-columns:1fr}.gip-gallery{grid-template-columns:repeat(2,1fr)}}
+.gip-single-feature-icon{font-size:1.25rem}.gip-features li>span:last-child{display:flex;flex-direction:column}.gip-features small{font-size:.75rem;color:#6b7280}
+
+/* Ficha de propiedad v1.2 */
+.gip-single-page{background:#fff;color:#344054;padding:34px 0 70px}.gip-single-inner{max-width:1280px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:34px;align-items:start}.gip-property-gallery{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-bottom:22px}.gip-gallery-primary,.gip-gallery-secondary,.gip-gallery-thumb{overflow:hidden}.gip-gallery-primary{border-radius:18px;min-height:420px}.gip-gallery-primary img{width:100%;height:100%;min-height:420px;display:block;object-fit:cover}.gip-gallery-secondary{display:grid;gap:14px;grid-template-rows:repeat(2,minmax(0,1fr))}.gip-gallery-thumb{border-radius:16px;min-height:203px}.gip-gallery-thumb img{width:100%;height:100%;min-height:203px;display:block;object-fit:cover}
+.gip-single-features{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border:1px solid #e7ebf0;border-radius:16px;overflow:hidden;margin:0 0 34px;background:#fff}.gip-single-feature{display:flex;align-items:center;justify-content:center;gap:13px;padding:22px 14px;min-height:86px;border-right:1px solid #e7ebf0}.gip-single-feature:last-child{border-right:0}.gip-single-feature .gip-icon{width:28px;height:28px;flex-basis:28px;color:#64707c}.gip-single-feature .gip-icon svg{stroke-width:1.7}.gip-single-feature>div{display:flex;flex-direction:column;gap:3px}.gip-single-feature strong{font-size:1.28rem;line-height:1;font-weight:700;color:#344054}.gip-single-feature span{font-size:.86rem;color:#74808c;white-space:nowrap}
+.gip-property-header{padding:0 4px 26px;border-bottom:1px solid #e7ebf0}.gip-property-city{display:flex;align-items:center;gap:9px;color:#687482;font-size:1rem;margin-bottom:10px}.gip-property-city .gip-icon{width:22px;height:22px}.gip-property-header h1{margin:0;color:#344054;font-size:clamp(2rem,4vw,3.15rem);line-height:1.12;letter-spacing:-.02em}.gip-property-header .gip-price{font-size:1.55rem;font-weight:700;margin:15px 0 8px;color:#344054}.gip-property-address{margin:13px 0 0;font-size:1.08rem;color:#667281}.gip-description-wrap,.gip-amenities-wrap,.gip-map-section{padding:30px 4px;border-bottom:1px solid #e7ebf0}.gip-description-wrap h2,.gip-amenities-wrap h2,.gip-map-section h2{margin:0 0 16px;color:#344054;font-size:1.45rem}.gip-description{margin:0;color:#5e6a78;line-height:1.75}.gip-amenities-list{display:flex;flex-wrap:wrap;gap:10px}.gip-amenities-list span{padding:9px 13px;background:#f4f6f8;border-radius:999px;color:#53606d;font-size:.9rem}.gip-map-wrap{border:1px solid #e4e8ed;border-radius:16px;overflow:hidden;background:#f4f6f8}.gip-map-wrap #gip-map{height:420px;width:100%}.gip-map-empty{padding:40px;background:#f7f8fa;border-radius:14px;color:#697586}
+.gip-contact-card{position:sticky;top:24px;padding:25px;border:1px solid #e3e8ee;border-radius:18px;background:#fff;box-shadow:0 14px 45px rgba(16,24,40,.07)}.gip-contact-card h2{margin:0 0 20px;font-size:1.4rem;color:#344054}.gip-contact-card .gip-agent{display:flex;align-items:center;gap:12px;padding-bottom:18px;margin-bottom:18px;border-bottom:1px solid #edf0f2}.gip-agent>div{display:flex;flex-direction:column;gap:4px}.gip-agent strong{color:#344054}.gip-agent span{color:#74808c;font-size:.9rem}.gip-contact-card .gip-agent-photo{width:54px;height:54px;border-radius:50%;object-fit:cover}.gip-contact-card input,.gip-contact-card textarea{width:100%;box-sizing:border-box;border:1px solid #d8dee6;border-radius:10px;padding:11px 12px;margin-top:6px}.gip-contact-card textarea{min-height:110px}.gip-contact-card label{font-size:.9rem;color:#53606d}.gip-contact-card p{margin:0 0 13px}.gip-contact-card button,.gip-contact-card .gip-whatsapp{width:100%;border-radius:10px;padding:13px 16px;font-weight:600}.gip-contact-card button{background:#344054;color:#fff;border:0;cursor:pointer}.gip-contact-card .gip-whatsapp{box-sizing:border-box;margin:0 0 18px;background:#168d45}.gip-contact-card .gip-privacy{font-size:.78rem;line-height:1.45}.gip-contact-card .gip-privacy input{width:auto;margin:0 5px 0 0}
+@media(max-width:1100px){.gip-single-inner{grid-template-columns:1fr}.gip-contact-card{position:static}.gip-single-features{grid-template-columns:repeat(3,minmax(0,1fr))}.gip-single-feature:nth-child(3){border-right:0}.gip-single-feature:nth-child(n+4){border-top:1px solid #e7ebf0}}
+@media(max-width:700px){.gip-single-page{padding-top:18px}.gip-single-inner{padding:0 14px}.gip-property-gallery{grid-template-columns:1fr}.gip-gallery-primary,.gip-gallery-primary img{min-height:280px}.gip-gallery-secondary{grid-template-columns:1fr 1fr;grid-template-rows:none}.gip-gallery-thumb,.gip-gallery-thumb img{min-height:150px}.gip-single-features{grid-template-columns:repeat(2,minmax(0,1fr))}.gip-single-feature{justify-content:flex-start;border-right:1px solid #e7ebf0!important;border-top:1px solid #e7ebf0}.gip-single-feature:nth-child(-n+2){border-top:0}.gip-single-feature:nth-child(even){border-right:0!important}.gip-property-header h1{font-size:2.1rem}.gip-map-wrap #gip-map{height:320px}}
+
+/* Ficha v1.3 - diseño de referencia */
+.gip-reference-gallery{display:block!important;margin-bottom:22px}.gip-gallery-stage{position:relative;height:470px;border-radius:16px;overflow:hidden;background:#eef1f4}.gip-gallery-main-image{width:100%;height:100%;object-fit:cover;display:block}.gip-gallery-nav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border:1px solid rgba(255,255,255,.7);border-radius:50%;background:rgba(255,255,255,.9);color:#475467;font-size:34px;line-height:1;cursor:pointer;z-index:2}.gip-gallery-prev{left:18px}.gip-gallery-next{right:18px}.gip-gallery-counter{position:absolute;left:18px;bottom:18px;padding:9px 13px;border-radius:8px;background:rgba(26,35,46,.88);color:#fff;font-weight:600;font-size:.9rem}.gip-gallery-thumbnails{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin-top:10px}.gip-gallery-thumbnail{position:relative;border:2px solid transparent;border-radius:9px;overflow:hidden;background:#e9edf1;padding:0;height:112px;cursor:pointer}.gip-gallery-thumbnail.is-active{border-color:#a87b32}.gip-gallery-thumbnail img{width:100%;height:100%;display:block;object-fit:cover}.gip-gallery-more{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(24,34,45,.62);color:#fff;font-size:1.8rem;font-weight:700}.gip-mobile-summary{display:none}
+.gip-reference-sidebar{display:flex;flex-direction:column;gap:18px}.gip-property-summary-card,.gip-agent-card,.gip-contact-card{border:1px solid #dfe5eb;border-radius:16px;background:#fff;box-shadow:0 10px 32px rgba(16,24,40,.045)}.gip-property-summary-card{padding:22px}.gip-operation-badge{display:inline-flex;padding:6px 12px;border-radius:8px;background:#a87b32;color:#fff;font-weight:700;font-size:.85rem;margin-bottom:12px}.gip-property-summary-card h1{margin:0;color:#344054;font-size:1.9rem;line-height:1.18}.gip-summary-location{display:flex;gap:10px;align-items:flex-start;margin:15px 0 18px;color:#667085}.gip-summary-location .gip-icon{width:22px;height:22px;margin-top:1px}.gip-summary-location>div{display:flex;flex-direction:column;gap:3px}.gip-summary-location span{font-size:1rem}.gip-summary-location small{font-size:.92rem;color:#667085}.gip-summary-price{border-top:1px solid #e6eaee;padding-top:18px;margin-top:4px;font-size:2rem;line-height:1.05;font-weight:800;color:#344054;letter-spacing:.01em}.gip-summary-price small{display:block;margin-top:5px;font-size:.8rem;font-weight:500;color:#667085}.gip-summary-features{display:grid;grid-template-columns:repeat(4,1fr);margin-top:20px;border:1px solid #e1e6ec;border-radius:12px;overflow:hidden;background:#fafbfc}.gip-summary-features>div{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-height:102px;border-right:1px solid #e1e6ec;text-align:center}.gip-summary-features>div:last-child{border-right:0}.gip-summary-features .gip-icon{width:25px;height:25px;color:#344054}.gip-summary-features strong{font-size:1.15rem;color:#344054}.gip-summary-features span{font-size:.82rem;color:#667085}.gip-summary-whatsapp,.gip-summary-info{display:flex;align-items:center;justify-content:center;gap:9px;width:100%;box-sizing:border-box;border-radius:10px;padding:14px 16px;text-decoration:none;font-weight:700;margin-top:14px}.gip-summary-whatsapp{background:#a87b32;color:#fff}.gip-summary-info{background:#f2f4f7;color:#344054}.gip-summary-whatsapp .gip-icon,.gip-summary-info .gip-icon{width:20px;height:20px}
+.gip-agent-card{padding:22px}.gip-agent-card h2{margin:0 0 16px;font-size:1.1rem;color:#344054}.gip-agent-card-main{display:flex;gap:14px;align-items:flex-start}.gip-agent-card .gip-agent-photo{width:82px;height:82px;object-fit:cover;border-radius:50%;flex:0 0 82px}.gip-agent-card-main>div{min-width:0;display:flex;flex-direction:column;gap:5px}.gip-agent-card strong{font-size:1.05rem;color:#344054}.gip-agent-card span{font-size:.88rem;color:#667085}.gip-agent-card a{display:flex;align-items:center;gap:7px;color:#667085;text-decoration:none;font-size:.88rem;word-break:break-word}.gip-agent-card a .gip-icon{width:18px;height:18px}.gip-agent-card a:first-of-type{color:#168d45}
+.gip-single-features{display:none!important}.gip-reference-features{display:none}.gip-characteristics-wrap{padding:30px 4px;border-bottom:1px solid #e7ebf0}.gip-characteristics-wrap h2{margin:0 0 20px;color:#344054;font-size:1.45rem}.gip-characteristics-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 28px}.gip-characteristic{display:flex;align-items:flex-start;gap:12px;color:#667085}.gip-characteristic .gip-icon,.gip-char-symbol{width:26px;height:26px;flex:0 0 26px;color:#344054;display:inline-flex;align-items:center;justify-content:center;font-size:1.5rem}.gip-characteristic>div{display:flex;flex-direction:column;gap:4px}.gip-characteristic span:not(.gip-icon){font-size:.9rem}.gip-characteristic strong{font-size:1rem;color:#344054}.gip-map-address{display:flex;align-items:center;gap:10px;padding:14px 16px;background:#fff;color:#475467}.gip-map-address .gip-icon{width:20px;height:20px}.gip-map-address span{flex:1}.gip-map-address a{display:flex;align-items:center;gap:7px;padding:10px 14px;border:1px solid #d0d5dd;border-radius:9px;text-decoration:none;color:#344054;font-weight:600;font-size:.88rem}.gip-map-address a .gip-icon{width:16px;height:16px}
+.gip-contact-card{padding:22px!important;position:static!important}.gip-contact-card h2{font-size:1.15rem;margin-bottom:5px!important}.gip-contact-intro{color:#667085!important;margin-bottom:16px!important}.gip-contact-card input,.gip-contact-card textarea{background:#fff;border-color:#d0d5dd!important;border-radius:8px!important}.gip-contact-card button{display:flex;align-items:center;justify-content:center;gap:9px;background:#344054!important;border-radius:9px!important}.gip-contact-card button .gip-icon{width:18px;height:18px}.gip-contact-card label{font-size:.84rem;color:#667085}
+@media(max-width:1100px){.gip-reference-sidebar{display:grid;grid-template-columns:1fr 1fr}.gip-contact-card{grid-column:1/-1}.gip-reference-gallery .gip-gallery-stage{height:440px}}
+@media(max-width:760px){.gip-reference-sidebar{display:flex}.gip-property-summary-card{display:none}.gip-mobile-summary{display:block;padding:6px 2px 20px}.gip-mobile-summary h1{margin:0;color:#344054;font-size:2rem}.gip-mobile-price{font-size:1.5rem;font-weight:800;margin-top:12px;color:#344054}.gip-reference-features{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #e1e6ec;border-radius:12px;overflow:hidden;margin-bottom:22px}.gip-reference-feature{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:14px 5px;border-right:1px solid #e1e6ec;text-align:center}.gip-reference-feature:last-child{border-right:0}.gip-reference-feature .gip-icon{width:24px;height:24px}.gip-reference-feature strong{font-size:1rem}.gip-reference-feature span{font-size:.75rem;color:#667085}.gip-gallery-stage{height:300px}.gip-gallery-nav{width:42px;height:42px}.gip-gallery-thumbnails{grid-template-columns:repeat(3,1fr)}.gip-gallery-thumbnail{height:85px}.gip-characteristics-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.gip-map-address{align-items:flex-start;flex-wrap:wrap}.gip-map-address a{margin-left:30px}.gip-reference-gallery{margin-bottom:14px}}
+
+
+/* Ficha v1.4 - ajustes finales de controles y agente */
+.gip-gallery-nav{
+  -webkit-appearance:none!important;
+  appearance:none!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:54px!important;
+  height:54px!important;
+  min-width:54px!important;
+  min-height:54px!important;
+  padding:0!important;
+  margin:0!important;
+  border:1px solid rgba(255,255,255,.92)!important;
+  border-radius:50%!important;
+  background:rgba(255,255,255,.96)!important;
+  color:#475467!important;
+  box-sizing:border-box!important;
+  line-height:1!important;
+  box-shadow:0 4px 16px rgba(16,24,40,.10)!important;
+  cursor:pointer!important;
+  overflow:hidden!important;
+}
+.gip-gallery-nav:hover{background:#fff!important;box-shadow:0 8px 22px rgba(16,24,40,.16)!important}
+.gip-gallery-nav:focus-visible{outline:3px solid rgba(168,123,50,.38)!important;outline-offset:3px!important}
+.gip-gallery-nav svg{display:block!important;width:22px!important;height:22px!important;fill:none!important;stroke:currentColor!important;stroke-width:2.2!important;stroke-linecap:round!important;stroke-linejoin:round!important}
+.gip-gallery-prev{left:22px!important}.gip-gallery-next{right:22px!important}
+
+/* Etiqueta de operación siempre claramente separada del título */
+.gip-property-summary-card .gip-operation-badge{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:max-content!important;
+  min-height:32px!important;
+  padding:6px 13px!important;
+  margin:0 0 14px!important;
+  border-radius:9px!important;
+  background:#a87b32!important;
+  color:#fff!important;
+  font-size:.84rem!important;
+  font-weight:700!important;
+  line-height:1!important;
+  text-transform:capitalize!important;
+  box-sizing:border-box!important;
+}
+
+/* La foto del agente debe conservar un círculo perfecto, incluso con estilos del tema */
+.gip-agent-card-main{align-items:center!important}
+.gip-agent-card .gip-agent-photo{
+  display:block!important;
+  width:82px!important;
+  height:82px!important;
+  min-width:82px!important;
+  max-width:82px!important;
+  min-height:82px!important;
+  max-height:82px!important;
+  aspect-ratio:1 / 1!important;
+  object-fit:cover!important;
+  object-position:center!important;
+  border-radius:50%!important;
+  overflow:hidden!important;
+  flex:0 0 82px!important;
+}
+@media(max-width:760px){
+  .gip-gallery-nav{width:46px!important;height:46px!important;min-width:46px!important;min-height:46px!important}
+  .gip-gallery-prev{left:14px!important}.gip-gallery-next{right:14px!important}
+}
