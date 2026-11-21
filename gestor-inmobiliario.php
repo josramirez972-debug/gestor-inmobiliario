@@ -1,11 +1,14 @@
 <?php
 /**
  * Plugin Name: Gestor Inmobiliario
- * Description: CPT de propiedades, filtros, contacto, mapa y widgets para Elementor.
- * Version: 1.4.1
+ * Plugin URI: https://github.com/josramirez972-debug/gestor-inmobiliario
+ * Description: CPT de propiedades, filtros reactivos AJAX, contacto, mapa Leaflet y widgets nativos para Elementor.
+ * Version: 1.5.0
  * Requires at least: 6.4
  * Requires PHP: 8.1
- * Author: Gestor Inmobiliario
+ * Author: José Ramírez
+ * Author URI: https://github.com/josramirez972-debug
+ * License: GPL-2.0-or-later
  * Text Domain: gestor-inmobiliario
  */
 
@@ -22,7 +25,7 @@ if ( defined( 'GIP_BOOTSTRAPPED' ) ) {
 define( 'GIP_BOOTSTRAPPED', true );
 
 if ( ! defined( 'GIP_VERSION' ) ) {
-    define( 'GIP_VERSION', '1.4.1' );
+    define( 'GIP_VERSION', '1.5.0' );
 }
 if ( ! defined( 'GIP_FILE' ) ) {
     define( 'GIP_FILE', __FILE__ );
