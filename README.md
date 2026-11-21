@@ -77,11 +77,17 @@ gestor-inmobiliario/
 │       ├── admin.js                # Integración con wp.media para galería y avatar de agente
 │       └── public.js               # Lógica AJAX (fetch), galería interactiva y mapa Leaflet
 ├── includes/
-│   ├── class-gip-plugin.php        # Core del plugin (Singleton, CPT, Taxonomías, Meta, AJAX, Mail)
+│   ├── class-gip-plugin.php        # Core orquestador del plugin (Singleton)
+│   ├── class-gip-cpt.php           # Registro encapsulado de CPT y 6 taxonomías
+│   ├── class-gip-meta-boxes.php    # Meta Boxes, persistencia, permisos y sanitización
+│   ├── class-gip-query.php         # Servicio de consulta (WP_Query), filtros y renderizado
+│   ├── class-gip-ajax.php          # Endpoint asíncrono con verificación de Nonces
+│   ├── class-gip-contact.php       # Enrutamiento de contacto y Honeypot antispam
 │   └── class-gip-elementor.php     # Widgets y controles para Elementor Widget API
 ├── templates/
 │   ├── archive-gip_property.php    # Plantilla de listado general de inmuebles
 │   └── single-gip_property.php     # Ficha detallada de la propiedad y sidebar de contacto
+├── CHANGELOG.md                    # Historial detallado de versiones (v1.0.0 a v1.5.0)
 ├── gestor-inmobiliario.php         # Archivo bootstrap y cabeceras de WordPress
 ├── .gitignore                      # Exclusiones de archivos del sistema y temporales
 └── README.md                       # Documentación técnica
